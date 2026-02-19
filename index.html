@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="WhatsPosh — The global authority on modern elegance. Style, etiquette, beauty, and culture for the considered life.">
+  <meta name="keywords" content="posh style, modern elegance, fashion etiquette, capsule wardrobe, luxury lifestyle">
+  <meta property="og:title" content="WhatsPosh — Modern Elegance, Redefined">
+  <meta property="og:description" content="Style, etiquette, beauty and culture for the considered life.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://whatsposh.com/">
+  <link rel="alternate" hreflang="en" href="https://whatsposh.com/">
+  <link rel="alternate" hreflang="es" href="https://whatsposh.com/es/">
+  <link rel="alternate" hreflang="fr" href="https://whatsposh.com/fr/">
+  <title>WhatsPosh — Modern Elegance, Redefined</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============ NAVIGATION ============ -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="/" class="nav__logo" aria-label="WhatsPosh home">WhatsPosh</a>
+      <ul class="nav__links" role="list">
+        <li><a href="#today">Today</a></li>
+        <li><a href="#style">Style</a></li>
+        <li><a href="#etiquette">Etiquette</a></li>
+        <li><a href="#beauty">Beauty</a></li>
+        <li><a href="#culture">Culture</a></li>
+        <li><a href="#access">Access</a></li>
+        <li><a href="#vault">Vault</a></li>
+      </ul>
+      <div class="nav__right">
+        <div class="nav__lang" aria-label="Language switcher">
+          <a href="/" data-lang="en" aria-label="English" aria-current="page">EN</a>
+          <a href="/es/" data-lang="es" aria-label="Español">ES</a>
+          <a href="/fr/" data-lang="fr" aria-label="Français">FR</a>
+        </div>
+        <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============ MOBILE MENU ============ -->
+  <div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Navigation menu">
+    <button class="mobile-menu__close" aria-label="Close menu">&times;</button>
+    <nav class="mobile-menu__links" aria-label="Mobile navigation">
+      <a href="#today">Today</a>
+      <a href="#style">Style</a>
+      <a href="#etiquette">Etiquette</a>
+      <a href="#beauty">Beauty</a>
+      <a href="#culture">Culture</a>
+      <a href="#access">Access</a>
+      <a href="#vault">Vault</a>
+    </nav>
+    <div class="mobile-menu__lang" aria-label="Language switcher">
+      <a href="/" data-lang="en" aria-current="page">EN</a>
+      <a href="/es/" data-lang="es">ES</a>
+      <a href="/fr/" data-lang="fr">FR</a>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__bg" aria-hidden="true">
+        <img src="https://placehold.co/1920x1080/1A1A1A/C9A96E?text=WhatsPosh" alt="" loading="eager" fetchpriority="high" width="1920" height="1080">
+      </div>
+      <div class="hero__content">
+        <div class="hero__tag" aria-label="Site category">The Global Elegance Authority</div>
+        <h1 class="hero__title" id="hero-title">
+          What does it mean<br>to be truly <em>posh</em>?
+        </h1>
+        <p class="hero__sub">Not inherited wealth. Not a postcode. True posh is a discipline — the considered life, lived with intention, style, and grace. We show you how.</p>
+        <div class="hero__ctas">
+          <a href="#quiz" class="btn btn--primary">Discover Your Archetype</a>
+          <a href="#today" class="btn btn--secondary">Today's Posh Drop</a>
+        </div>
+      </div>
+      <a href="#today" class="hero__scroll" aria-label="Scroll down">↓</a>
+    </section>
+
+    <!-- ============ WHAT'S POSH TODAY ============ -->
+    <section class="today section" id="today" aria-labelledby="today-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <div class="section__tag">Daily Edit</div>
+          <h2 id="today-title"><span class="today__date-label">Today's Posh Drop</span></h2>
+          <p class="section-sub">Five things to elevate today. Refreshed every morning.</p>
+        </div>
+        <div class="today__grid">
+          <article class="today__card today__card--outfit reveal reveal-delay-1" aria-label="Outfit of the day">
+            <img src="https://placehold.co/400x600/2C2C2C/C9A96E?text=Outfit" alt="Today's outfit inspiration" loading="lazy" width="400" height="600">
+            <div class="today__card__overlay">
+              <p class="today__card__label">Outfit</p>
+              <h3 class="today__card__title">Today's Look</h3>
+              <p class="today__card__desc">Loading today's outfit…</p>
+            </div>
+          </article>
+          <article class="today__card today__card--etiquette reveal reveal-delay-2" aria-label="Etiquette tip of the day">
+            <img src="https://placehold.co/400x600/1E2830/8B9D77?text=Etiquette" alt="Today's etiquette tip" loading="lazy" width="400" height="600">
+            <div class="today__card__overlay">
+              <p class="today__card__label">Etiquette</p>
+              <h3 class="today__card__title">Today's Rule</h3>
+              <p class="today__card__desc">Loading today's etiquette…</p>
+            </div>
+          </article>
+          <article class="today__card today__card--beauty reveal reveal-delay-3" aria-label="Beauty tip of the day">
+            <img src="https://placehold.co/400x600/2A1F1E/C49A8A?text=Beauty" alt="Today's beauty tip" loading="lazy" width="400" height="600">
+            <div class="today__card__overlay">
+              <p class="today__card__label">Beauty</p>
+              <h3 class="today__card__title">Today's Edit</h3>
+              <p class="today__card__desc">Loading today's beauty…</p>
+            </div>
+          </article>
+          <article class="today__card today__card--find reveal reveal-delay-4" aria-label="Posh find of the day">
+            <img src="https://placehold.co/400x600/1A2530/A8D8EA?text=Find" alt="Today's posh find" loading="lazy" width="400" height="600">
+            <div class="today__card__overlay">
+              <p class="today__card__label">The Find</p>
+              <h3 class="today__card__title">Today's Pick</h3>
+              <p class="today__card__desc">Loading today's find…</p>
+            </div>
+          </article>
+          <article class="today__card today__card--culture reveal" aria-label="Culture pick of the day">
+            <img src="https://placehold.co/400x600/221A2C/DDA0DD?text=Culture" alt="Today's culture pick" loading="lazy" width="400" height="600">
+            <div class="today__card__overlay">
+              <p class="today__card__label">Culture</p>
+              <h3 class="today__card__title">Today's Choice</h3>
+              <p class="today__card__desc">Loading today's culture…</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FIVE PILLARS ============ -->
+    <section class="pillars section" id="style" aria-labelledby="pillars-title">
+      <div class="container">
+        <div class="section__head text-center reveal">
+          <div class="section__tag">The Framework</div>
+          <h2 id="pillars-title">Five Pillars of Modern Posh</h2>
+          <p class="section-sub" style="margin:0.6rem auto 0;">Elegance is a system, not an instinct. Master these five disciplines.</p>
+        </div>
+        <div class="pillars__grid">
+          <a href="#pillar-style" class="pillar-card reveal reveal-delay-1" aria-label="Style pillar">
+            <img src="https://placehold.co/400x600/2C2418/C9A96E?text=Style" alt="Style" loading="lazy" width="400" height="600">
+            <div class="pillar-card__overlay">
+              <p class="pillar-card__num">01</p>
+              <h3 class="pillar-card__title">Style</h3>
+              <p class="pillar-card__desc">The art of dressing with intention. Not fashion — style. Learn the difference.</p>
+              <span class="pillar-card__arrow">Explore →</span>
+            </div>
+          </a>
+          <a href="#etiquette" class="pillar-card reveal reveal-delay-2" aria-label="Etiquette pillar">
+            <img src="https://placehold.co/400x600/1E2820/8B9D77?text=Etiquette" alt="Etiquette" loading="lazy" width="400" height="600">
+            <div class="pillar-card__overlay">
+              <p class="pillar-card__num">02</p>
+              <h3 class="pillar-card__title">Etiquette</h3>
+              <p class="pillar-card__desc">Grace under pressure. The rules of the considered life — in every room.</p>
+              <span class="pillar-card__arrow">Explore →</span>
+            </div>
+          </a>
+          <a href="#beauty" class="pillar-card reveal reveal-delay-3" aria-label="Beauty pillar">
+            <img src="https://placehold.co/400x600/2A1F1E/C49A8A?text=Beauty" alt="Beauty" loading="lazy" width="400" height="600">
+            <div class="pillar-card__overlay">
+              <p class="pillar-card__num">03</p>
+              <h3 class="pillar-card__title">Beauty</h3>
+              <p class="pillar-card__desc">Skin-first philosophy. Minimalist beauty that amplifies, never masks.</p>
+              <span class="pillar-card__arrow">Explore →</span>
+            </div>
+          </a>
+          <a href="#culture" class="pillar-card reveal reveal-delay-4" aria-label="Culture pillar">
+            <img src="https://placehold.co/400x600/221A2C/9B8EA0?text=Culture" alt="Culture" loading="lazy" width="400" height="600">
+            <div class="pillar-card__overlay">
+              <p class="pillar-card__num">04</p>
+              <h3 class="pillar-card__title">Culture</h3>
+              <p class="pillar-card__desc">What you read, watch, hear, and visit defines you. Curate accordingly.</p>
+              <span class="pillar-card__arrow">Explore →</span>
+            </div>
+          </a>
+          <a href="#access" class="pillar-card reveal" aria-label="Access pillar">
+            <img src="https://placehold.co/400x600/1A2530/6B8FA0?text=Access" alt="Access" loading="lazy" width="400" height="600">
+            <div class="pillar-card__overlay">
+              <p class="pillar-card__num">05</p>
+              <h3 class="pillar-card__title">Access</h3>
+              <p class="pillar-card__desc">Elegance isn't expensive. Know where to look. Build posh on any budget.</p>
+              <span class="pillar-card__arrow">Explore →</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PILLAR: STYLE ============ -->
+    <section class="pillar-section" id="pillar-style" aria-labelledby="pillar-style-title">
+      <div class="container">
+        <div class="pillar-section__layout">
+          <div class="pillar-section__img reveal">
+            <img src="https://placehold.co/600x750/2C2418/C9A96E?text=The+Wardrobe" alt="A perfectly curated wardrobe" loading="lazy" width="600" height="750">
+          </div>
+          <div class="reveal reveal-delay-1">
+            <span class="pillar-section__tag">Pillar 01 — Style</span>
+            <h2 class="pillar-section__title" id="pillar-style-title">The Architecture of a Posh Wardrobe</h2>
+            <p class="pillar-section__body">True style isn't about spending more — it's about choosing better. A posh wardrobe is built on structure: a handful of exceptional foundations, one or two distinctive pieces, and nothing that doesn't earn its place.</p>
+            <blockquote class="pillar-section__quote">Elegance is not about being noticed — it's about being remembered.</blockquote>
+            <ul class="pillar-section__points" role="list">
+              <li class="pillar-section__point">
+                <span class="pillar-section__point-icon" aria-hidden="true">✦</span>
+                <span>Build your capsule around 12 irreplaceable pieces — everything else is optional.</span>
+              </li>
+              <li class="pillar-section__point">
+                <span class="pillar-section__point-icon" aria-hidden="true">✦</span>
+                <span>Fabric quality over brand names. Cashmere, silk, and well-woven wool age beautifully.</span>
+              </li>
+              <li class="pillar-section__point">
+                <span class="pillar-section__point-icon" aria-hidden="true">✦</span>
+                <span>Fit is the only thing that separates expensive from posh. Tailor everything you wear often.</span>
+              </li>
+            </ul>
+            <a href="#outfit-gen" class="btn btn--outline">Build Your Formula</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ QUIZ ============ -->
+    <section class="quiz section" id="quiz" aria-labelledby="quiz-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <div class="section__tag">Self-Knowledge</div>
+          <h2 id="quiz-title">What's Your Posh Archetype?</h2>
+          <p class="section-sub">Six questions. Lifelong clarity. Discover the elegant persona that fits your authentic self.</p>
+        </div>
+        <div class="quiz__container" aria-live="polite">
+          <div class="quiz__progress" role="progressbar" aria-label="Quiz progress" aria-valuemin="0" aria-valuemax="6" aria-valuenow="0"></div>
+          <div class="quiz__steps"></div>
+          <div class="quiz__result" hidden aria-live="assertive"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PILLAR: ETIQUETTE ============ -->
+    <section class="pillar-section" id="etiquette" aria-labelledby="pillar-etiquette-title">
+      <div class="container">
+        <div class="pillar-section__layout pillar-section__layout--reverse">
+          <div class="pillar-section__img reveal reveal-delay-1">
+            <img src="https://placehold.co/600x750/1E2820/8B9D77?text=The+Table" alt="An elegantly set dining table" loading="lazy" width="600" height="750">
+          </div>
+          <div class="reveal">
+            <span class="pillar-section__tag">Pillar 02 — Etiquette</span>
+            <h2 class="pillar-section__title" id="pillar-etiquette-title">Grace Is a Practice, Not a Gift</h2>
+            <p class="pillar-section__body">Modern etiquette isn't about rigid rules — it's about making everyone around you feel at ease. The truly posh person is the one who makes others feel most comfortable, not the one who notices when others aren't.</p>
+            <blockquote class="pillar-section__quote">The purpose of etiquette is to remove anxiety from social situations — for everyone in the room, not just yourself.</blockquote>
+            <ul class="pillar-section__points" role="list">
+              <li class="pillar-section__point">
+                <span class="pillar-section__point-icon" aria-hidden="true">✦</span>
+                <span>Arrive within 10 minutes of the stated time — never first, never more than 15 minutes late.</span>
+              </li>
+              <li class="pillar-section__point">
+                <span class="pillar-section__point-icon" aria-hidden="true">✦</span>
+                <span>Introduce people by finding what makes them interesting — not their job title.</span>
+              </li>
+              <li class="pillar-section__point">
+                <span class="pillar-section__point-icon" aria-hidden="true">✦</span>
+                <span>Decline with warmth and without explanation. "That doesn't work for me" is complete.</span>
+              </li>
+            </ul>
+            <a href="#vault" class="btn btn--outline">Explore the Vault</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BUDGET / ACCESS SECTION ============ -->
+    <section class="budget section" id="access" aria-labelledby="budget-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <div class="section__tag">Pillar 05 — Access</div>
+          <h2 id="budget-title">Posh on Every Budget</h2>
+          <p class="section-sub">True elegance has always been available to those who know where to look.</p>
+        </div>
+        <div class="budget__grid">
+          <article class="budget__card reveal reveal-delay-1">
+            <div class="budget__card-icon" aria-hidden="true">🧥</div>
+            <h3 class="budget__card-title">The Capsule Formula</h3>
+            <p class="budget__card-body">Twelve considered pieces that do the work of sixty. Build from the foundation — neutral trousers, a white shirt, a blazer — then add depth slowly.</p>
+            <ul class="budget__card-tips" role="list">
+              <li class="budget__tip">Buy one exceptional piece rather than three mediocre ones.</li>
+              <li class="budget__tip">Invest in outerwear — it frames everything underneath.</li>
+              <li class="budget__tip">A well-chosen shoe elevates any outfit by 40%.</li>
+            </ul>
+          </article>
+          <article class="budget__card reveal reveal-delay-2">
+            <div class="budget__card-icon" aria-hidden="true">🔍</div>
+            <h3 class="budget__card-title">The Smart Edit</h3>
+            <p class="budget__card-body">Know which categories deserve investment and which don't. Spend on what touches your skin daily — cashmere, leather, linen. Save on what's decorative.</p>
+            <ul class="budget__card-tips" role="list">
+              <li class="budget__tip">Uniqlo for cashmere, silk, and merino wool basics.</li>
+              <li class="budget__tip">Mango and &amp; Other Stories for seasonal statement pieces.</li>
+              <li class="budget__tip">Charity shops in affluent areas for authentic heritage brands.</li>
+            </ul>
+          </article>
+          <article class="budget__card reveal reveal-delay-3">
+            <div class="budget__card-icon" aria-hidden="true">⏳</div>
+            <h3 class="budget__card-title">The Long Game</h3>
+            <p class="budget__card-body">Posh dressing is patient dressing. One excellent purchase per season, well-chosen, will outvalue ten impulse buys every time. Let the wardrobe grow with you.</p>
+            <ul class="budget__card-tips" role="list">
+              <li class="budget__tip">Cost-per-wear is the only metric that matters for clothing.</li>
+              <li class="budget__tip">A £300 coat worn 200 times costs £1.50 per wear.</li>
+              <li class="budget__tip">Take care of fabric: cedar blocks, proper hangers, dry when needed.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ETIQUETTE VAULT ============ -->
+    <section class="vault section" id="vault" aria-labelledby="vault-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <div class="section__tag">Pillar 02 — Etiquette</div>
+          <h2 id="vault-title">The Etiquette Vault</h2>
+          <p class="section-sub">Searchable guides to every social situation. From dining to digital.</p>
+        </div>
+        <div class="vault__search-wrap reveal">
+          <span class="vault__search-icon" aria-hidden="true">🔍</span>
+          <input class="vault__search" type="search" placeholder="Search etiquette guides…" aria-label="Search the etiquette vault">
+        </div>
+        <div class="vault__filters reveal" role="group" aria-label="Filter by category">
+          <button class="vault__filter active" data-filter="all">All</button>
+          <button class="vault__filter" data-filter="dining">Dining</button>
+          <button class="vault__filter" data-filter="social">Social</button>
+          <button class="vault__filter" data-filter="digital">Digital</button>
+          <button class="vault__filter" data-filter="travel">Travel</button>
+          <button class="vault__filter" data-filter="home">Home</button>
+          <button class="vault__filter" data-filter="dress">Dress</button>
+        </div>
+        <div class="vault__grid" role="list">
+          <article class="vault__item reveal" data-cat="dining" role="listitem">
+            <p class="vault__item-cat">Dining</p>
+            <h3 class="vault__item-title">The Art of the Dinner Party</h3>
+            <p class="vault__item-preview">From seating plans to saying goodbye — everything you need to host with grace and ease.</p>
+          </article>
+          <article class="vault__item reveal reveal-delay-1" data-cat="social" role="listitem">
+            <p class="vault__item-cat">Social</p>
+            <h3 class="vault__item-title">Introduction Protocol</h3>
+            <p class="vault__item-preview">Who introduces whom, and how to make everyone feel the most interesting person in the room.</p>
+          </article>
+          <article class="vault__item reveal reveal-delay-2" data-cat="digital" role="listitem">
+            <p class="vault__item-cat">Digital</p>
+            <h3 class="vault__item-title">The Phone at the Table</h3>
+            <p class="vault__item-preview">The single rule that signals respect for every person in your presence.</p>
+          </article>
+          <article class="vault__item reveal" data-cat="travel" role="listitem">
+            <p class="vault__item-cat">Travel</p>
+            <h3 class="vault__item-title">Posh Travel Conduct</h3>
+            <p class="vault__item-preview">Airports, hotels, and new cities — how to move through the world with quiet confidence.</p>
+          </article>
+          <article class="vault__item reveal reveal-delay-1" data-cat="dining" role="listitem">
+            <p class="vault__item-cat">Dining</p>
+            <h3 class="vault__item-title">Wine Without Pretension</h3>
+            <p class="vault__item-preview">Order, pour, and discuss wine like someone who understands it — without ever showing off.</p>
+          </article>
+          <article class="vault__item reveal reveal-delay-2" data-cat="dress" role="listitem">
+            <p class="vault__item-cat">Dress</p>
+            <h3 class="vault__item-title">Dress Codes, Decoded</h3>
+            <p class="vault__item-preview">Black tie, smart casual, business formal — what they actually mean and how to nail each one.</p>
+          </article>
+          <article class="vault__item reveal" data-cat="home" role="listitem">
+            <p class="vault__item-cat">Home</p>
+            <h3 class="vault__item-title">Guest Room Hospitality</h3>
+            <p class="vault__item-preview">The details that make overnight guests feel like they've arrived somewhere truly special.</p>
+          </article>
+          <article class="vault__item reveal reveal-delay-1" data-cat="social" role="listitem">
+            <p class="vault__item-cat">Social</p>
+            <h3 class="vault__item-title">The Graceful Decline</h3>
+            <p class="vault__item-preview">Saying no with warmth and without guilt. The four-word phrase that covers every situation.</p>
+          </article>
+          <article class="vault__item reveal reveal-delay-2" data-cat="digital" role="listitem">
+            <p class="vault__item-cat">Digital</p>
+            <h3 class="vault__item-title">Email and Message Etiquette</h3>
+            <p class="vault__item-preview">Response times, tone, and the lost art of the well-crafted message in a distracted world.</p>
+          </article>
+        </div>
+        <p class="vault__empty" aria-live="polite">No guides match your search. Try a different term.</p>
+      </div>
+    </section>
+
+    <!-- ============ OUTFIT FORMULA GENERATOR ============ -->
+    <section class="outfit-gen section" id="outfit-gen" aria-labelledby="outfit-gen-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <div class="section__tag">Style Tools</div>
+          <h2 id="outfit-gen-title">The Outfit Formula Generator</h2>
+          <p class="section-sub">Four systems that solve getting dressed, permanently.</p>
+        </div>
+        <div class="outfit-gen__controls reveal" role="group" aria-label="Choose outfit formula">
+          <button class="outfit-gen__btn" data-formula="three-piece">The Three-Piece</button>
+          <button class="outfit-gen__btn" data-formula="monochrome">Monochrome</button>
+          <button class="outfit-gen__btn" data-formula="structured">Structured + Soft</button>
+          <button class="outfit-gen__btn" data-formula="daytownight">Day to Night</button>
+        </div>
+        <div class="outfit-gen__display reveal reveal-delay-1" aria-live="polite" aria-atomic="true"></div>
+      </div>
+    </section>
+
+    <!-- ============ FABRIC DECODER ============ -->
+    <section class="fabric section" id="beauty" aria-labelledby="fabric-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <div class="section__tag">Fabric Intelligence</div>
+          <h2 id="fabric-title">The Fabric Decoder</h2>
+          <p class="section-sub">Know what you're touching. Understand what you're buying.</p>
+        </div>
+        <div class="fabric__tabs reveal" role="tablist" aria-label="Choose a fabric">
+          <button class="fabric__tab" data-fabric="cashmere" role="tab" aria-selected="true" aria-controls="fabric-cashmere">Cashmere</button>
+          <button class="fabric__tab" data-fabric="silk" role="tab" aria-selected="false" aria-controls="fabric-silk">Silk</button>
+          <button class="fabric__tab" data-fabric="linen" role="tab" aria-selected="false" aria-controls="fabric-linen">Linen</button>
+          <button class="fabric__tab" data-fabric="wool" role="tab" aria-selected="false" aria-controls="fabric-wool">Wool</button>
+          <button class="fabric__tab" data-fabric="leather" role="tab" aria-selected="false" aria-controls="fabric-leather">Leather</button>
+        </div>
+
+        <div class="fabric__panel" data-fabric="cashmere" id="fabric-cashmere" role="tabpanel">
+          <div class="fabric__info">
+            <h3 class="fabric__info-title">Cashmere</h3>
+            <p style="font-size:0.9rem;color:var(--charcoal-soft);margin-bottom:1rem;">Combed from the undercoat of Cashmere goats. The most valued natural fibre — light, warm, and extraordinarily soft against skin.</p>
+            <div class="fabric__score">
+              <div class="fabric__score-item">
+                <div class="fabric__score-bar"><div class="fabric__score-fill" style="width:95%"></div></div>
+                <p class="fabric__score-label">Luxury</p>
+              </div>
+              <div class="fabric__score-item">
+                <div class="fabric__score-bar"><div class="fabric__score-fill" style="width:80%"></div></div>
+                <p class="fabric__score-label">Warmth</p>
+              </div>
+              <div class="fabric__score-item">
+                <div class="fabric__score-bar"><div class="fabric__score-fill" style="width:60%"></div></div>
+                <p class="fabric__score-label">Durability</p>
+              </div>
+            </div>
+            <div class="fabric__do-dont">
+              <div class="fabric__do"><h5>Do</h5><p>Hand wash in cool water with specialist detergent. Lay flat to dry. Store folded, never on a hanger.</p></div>
+              <div class="fabric__dont"><h5>Don't</h5><p>Never machine wash. Avoid hanging — it distorts the shape. Keep away from direct sunlight and moths.</p></div>
+            </div>
+          </div>
+          <div class="fabric__info">
+            <h3 class="fabric__info-title">Spotting Quality Cashmere</h3>
+            <p style="font-size:0.9rem;color:var(--charcoal-soft);margin-bottom:1rem;">The cashmere market is flooded with inferior product. Here's how to tell the difference before you buy.</p>
+            <ul class="pillar-section__points" role="list">
+              <li class="pillar-section__point"><span class="pillar-section__point-icon" aria-hidden="true">✦</span><span>Stretch gently — quality cashmere springs back immediately.</span></li>
+              <li class="pillar-section__point"><span class="pillar-section__point-icon" aria-hidden="true">✦</span><span>Rub between your fingers: fine fibres feel smooth, not scratchy.</span></li>
+              <li class="pillar-section__point"><span class="pillar-section__point-icon" aria-hidden="true">✦</span><span>Check ply — 2-ply or higher means longer-lasting garments.</span></li>
+              <li class="pillar-section__point"><span class="pillar-section__point-icon" aria-hidden="true">✦</span><span>Trusted brands: Loro Piana, Johnstons of Elgin, Uniqlo premium line.</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="fabric__panel" data-fabric="silk" id="fabric-silk" role="tabpanel">
+          <div class="fabric__info">
+            <h3 class="fabric__info-title">Silk</h3>
+            <p style="font-size:0.9rem;color:var(--charcoal-soft);margin-bottom:1rem;">Produced by silkworms. The oldest luxury textile — lustrous, temperature-regulating, and extraordinarily refined in drape.</p>
+            <div class="fabric__score">
+              <div class="fabric__score-item"><div class="fabric__score-bar"><div class="fabric__score-fill" style="width:90%"></div></div><p class="fabric__score-label">Luxury</p></div>
+              <div class="fabric__score-item"><div class="fabric__score-bar"><div class="fabric__score-fill" style="width:40%"></div></div><p class="fabric__score-label">Warmth</p></div>
+              <div class="fabric__score-item"><div class="fabric__score-bar"><div class="fabric__score-fill" style="width:50%"></div></div><p class="fabric__score-label">Durability</p></div>
+            </div>
+            <div class="fabric__do-dont">
+              <div class="fabric__do"><h5>Do</h5><p>Hand wash in cool water or dry clean. Iron on low heat with a cloth barrier. Store in breathable bags.</p></div>
+              <div class="fabric__dont"><h5>Don't</h5><p>Never wring or twist. Avoid perfume contact — alcohol degrades silk fibres permanently.</p></div>
+            </div>
+          </div>
+          <div class="fabric__info">
+            <h3 class="fabric__info-title">Identifying Real Silk</h3>
+            <p style="font-size:0.9rem;color:var(--charcoal-soft);margin-bottom:1rem;">Polyester satin is not silk. Here is the quick test.</p>
+            <ul class="pillar-section__points" role="list">
+              <li class="pillar-section__point"><span class="pillar-section__point-icon" aria-hidden="true">✦</span><span>Burn test: real silk smells like burnt hair and leaves ash. Polyester melts.</span></li>
+              <li class="pillar-section__point"><span class="pillar-section__point-icon" aria-hidden="true">✦</span><span>Warmth test: silk warms quickly against skin. Synthetics stay cool.</span></li>
+              <li class="pillar-section__point"><span class="pillar-section__point-icon" aria-hidden="true">✦</span><span>Look for momme weight (mm) — 12–22mm is quality wearable silk.</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="fabric__panel" data-fabric="linen" id="fabric-linen" role="tabpanel">
+          <div class="fabric__info">
+            <h3 class="fabric__info-title">Linen</h3>
+            <p style="font-size:0.9rem;color:var(--charcoal-soft);margin-bottom:1rem;">From flax fibres. The oldest woven textile in history — cool, breathable, and increasingly refined as it ages.</p>
+            <div class="fabric__score">
+              <div class="fabric__score-item"><div class="fabric__score-bar"><div class="fabric__score-fill" style="width:70%"></div></div><p class="fabric__score-label">Luxury</p></div>
+              <div class="fabric__score-item"><div class="fabric__score-bar"><div class="fabric__score-fill" style="width:20%"></div></div><p class="fabric__score-label">Warmth</p></div>
+              <div class="fabric__score-item"><div class="fabric__score-bar"><div class="fabric__score-fill" style="width:85%"></div></div><p class="fabric__score-label">Durability</p></div>
+            </div>
+            <div class="fabric__do-dont">
+              <div class="fabric__do"><h5>Do</h5><p>Machine wash cool. Embrace the wrinkle — it is the character. Iron damp for crisp results.</p></div>
+              <div class="fabric__dont"><h5>Don't</h5><p>Avoid high heat drying — linen shrinks. Don't over-iron — remove creases without eliminating texture.</p></div>
+            </div>
+          </div>
+          <div class="fabric__info">
+            <h3 class="fabric__info-title">The Linen Philosophy</h3>
+            <p style="font-size:0.9rem;color:var(--charcoal-soft);margin-bottom:1rem;">Linen is uniquely posh because it improves with time — softening, breathing better, and developing a beautiful patina.</p>
+            <ul class="pillar-section__points" role="list">
+              <li class="pillar-section__point"><span class="pillar-section__point-icon" aria-hidden="true">✦</span><span>Belgian and Irish linen are the finest origins — look for provenance labelling.</span></li>
+              <li class="pillar-section__point"><span class="pillar-section__point-icon" aria-hidden="true">✦</span><span>Washed linen has a relaxed texture ideal for summer tailoring.</span></li>
+              <li class="pillar-section__point"><span class="pillar-section__point-icon" aria-hidden="true">✦</span><span>Natural tones — oatmeal, stone, ecru — are always more refined than bright white.</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="fabric__panel" data-fabric="wool" id="fabric-wool" role="tabpanel">
+          <div class="fabric__info">
+            <h3 class="fabric__info-title">Wool</h3>
+            <p style="font-size:0.9rem;color:var(--charcoal-soft);margin-bottom:1rem;">The backbone of British tailoring and international suiting. Naturally insulating, breathable, and extraordinarily versatile.</p>
+            <div class="fabric__score">
+              <div class="fabric__score-item"><div class="fabric__score-bar"><div class="fabric__score-fill" style="width:75%"></div></div><p class="fabric__score-label">Luxury</p></div>
+              <div class="fabric__score-item"><div class="fabric__score-bar"><div class="fabric__score-fill" style="width:85%"></div></div><p class="fabric__score-label">Warmth</p></div>
+              <div class="fabric__score-item"><div class="fabric__score-bar"><div class="fabric__score-fill" style="width:90%"></div></div><p class="fabric__score-label">Durability</p></div>
+            </div>
+            <div class="fabric__do-dont">
+              <div class="fabric__do"><h5>Do</h5><p>Dry clean or hand wash cold. Steam rather than iron. Brush regularly with a clothes brush to maintain nap.</p></div>
+              <div class="fabric__dont"><h5>Don't</h5><p>Never machine wash on warm. Don't hang heavy wool coats without support — use padded coat hangers.</p></div>
+            </div>
+          </div>
+          <div class="fabric__info">
+            <h3 class="fabric__info-title">Wool Grades</h3>
+            <p style="font-size:0.9rem;color:var(--charcoal-soft);margin-bottom:1rem;">Super numbers (Super 100s, 120s, 150s) indicate fineness. Higher isn't always better — it depends on use.</p>
+            <ul class="pillar-section__points" role="list">
+              <li class="pillar-section__point"><span class="pillar-section__point-icon" aria-hidden="true">✦</span><span>Super 100–120s: Ideal for daily suits — durable, holds shape, breathes well.</span></li>
+              <li class="pillar-section__point"><span class="pillar-section__point-icon" aria-hidden="true">✦</span><span>Super 140–160s: Finer hand feel, better drape — suited for occasion wear.</span></li>
+              <li class="pillar-section__point"><span class="pillar-section__point-icon" aria-hidden="true">✦</span><span>Merino and Lambswool are excellent mid-range wools for knitwear.</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="fabric__panel" data-fabric="leather" id="fabric-leather" role="tabpanel">
+          <div class="fabric__info">
+            <h3 class="fabric__info-title">Leather</h3>
+            <p style="font-size:0.9rem;color:var(--charcoal-soft);margin-bottom:1rem;">A material that ages into personality. Quality leather — in shoes, bags, and belts — defines the posh wardrobe's longevity.</p>
+            <div class="fabric__score">
+              <div class="fabric__score-item"><div class="fabric__score-bar"><div class="fabric__score-fill" style="width:85%"></div></div><p class="fabric__score-label">Luxury</p></div>
+              <div class="fabric__score-item"><div class="fabric__score-bar"><div class="fabric__score-fill" style="width:50%"></div></div><p class="fabric__score-label">Warmth</p></div>
+              <div class="fabric__score-item"><div class="fabric__score-bar"><div class="fabric__score-fill" style="width:95%"></div></div><p class="fabric__score-label">Durability</p></div>
+            </div>
+            <div class="fabric__do-dont">
+              <div class="fabric__do"><h5>Do</h5><p>Condition with appropriate cream every season. Use cedar shoe trees. Polish shoes regularly with quality wax.</p></div>
+              <div class="fabric__dont"><h5>Don't</h5><p>Never leave leather wet — dry naturally away from heat. Avoid harsh solvents or silicone sprays.</p></div>
+            </div>
+          </div>
+          <div class="fabric__info">
+            <h3 class="fabric__info-title">Leather Hierarchy</h3>
+            <p style="font-size:0.9rem;color:var(--charcoal-soft);margin-bottom:1rem;">Not all leather is equal. Know the grades before you buy.</p>
+            <ul class="pillar-section__points" role="list">
+              <li class="pillar-section__point"><span class="pillar-section__point-icon" aria-hidden="true">✦</span><span>Full-grain: The finest. Outer layer with natural grain intact. Ages magnificently.</span></li>
+              <li class="pillar-section__point"><span class="pillar-section__point-icon" aria-hidden="true">✦</span><span>Top-grain: Slightly sanded — consistent appearance, slightly less character over time.</span></li>
+              <li class="pillar-section__point"><span class="pillar-section__point-icon" aria-hidden="true">✦</span><span>Bonded leather: Scraps pressed together. Avoid entirely — it peels and does not age.</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GLOBAL STYLE ============ -->
+    <section class="global section" id="culture" aria-labelledby="global-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <div class="section__tag">Pillar 04 — Culture</div>
+          <h2 id="global-title">Posh Is Global</h2>
+          <p class="section-sub">Elegance speaks every language. The world's most refined style cultures, decoded.</p>
+        </div>
+        <div class="global__grid">
+          <div class="global__card reveal">
+            <img src="https://placehold.co/300x400/1A1A2E/9B8EA0?text=Parisian" alt="Parisian style" loading="lazy" width="300" height="400">
+            <div class="global__card__overlay">
+              <p class="global__card__region">Paris</p>
+              <p class="global__card__style">Effortless Classicism</p>
+            </div>
+          </div>
+          <div class="global__card reveal reveal-delay-1">
+            <img src="https://placehold.co/300x400/1E2820/8B9D77?text=Milano" alt="Milanese style" loading="lazy" width="300" height="400">
+            <div class="global__card__overlay">
+              <p class="global__card__region">Milan</p>
+              <p class="global__card__style">Architectured Luxury</p>
+            </div>
+          </div>
+          <div class="global__card reveal reveal-delay-2">
+            <img src="https://placehold.co/300x400/1A2530/6B8FA0?text=London" alt="London style" loading="lazy" width="300" height="400">
+            <div class="global__card__overlay">
+              <p class="global__card__region">London</p>
+              <p class="global__card__style">Tailored Heritage</p>
+            </div>
+          </div>
+          <div class="global__card reveal reveal-delay-3">
+            <img src="https://placehold.co/300x400/2C1A10/C9A96E?text=Tokyo" alt="Tokyo style" loading="lazy" width="300" height="400">
+            <div class="global__card__overlay">
+              <p class="global__card__region">Tokyo</p>
+              <p class="global__card__style">Precision &amp; Restraint</p>
+            </div>
+          </div>
+          <div class="global__card reveal">
+            <img src="https://placehold.co/300x400/221A2C/DDA0DD?text=New+York" alt="New York style" loading="lazy" width="300" height="400">
+            <div class="global__card__overlay">
+              <p class="global__card__region">New York</p>
+              <p class="global__card__style">Power Minimalism</p>
+            </div>
+          </div>
+          <div class="global__card reveal reveal-delay-1">
+            <img src="https://placehold.co/300x400/1A2518/8B9D77?text=Nairobi" alt="Nairobi style" loading="lazy" width="300" height="400">
+            <div class="global__card__overlay">
+              <p class="global__card__region">Nairobi</p>
+              <p class="global__card__style">Bold &amp; Considered</p>
+            </div>
+          </div>
+          <div class="global__card reveal reveal-delay-2">
+            <img src="https://placehold.co/300x400/2C2010/C9A96E?text=São+Paulo" alt="São Paulo style" loading="lazy" width="300" height="400">
+            <div class="global__card__overlay">
+              <p class="global__card__region">São Paulo</p>
+              <p class="global__card__style">Vibrant Tailoring</p>
+            </div>
+          </div>
+          <div class="global__card reveal reveal-delay-3">
+            <img src="https://placehold.co/300x400/1A1A1A/C9A96E?text=Copenhagen" alt="Copenhagen style" loading="lazy" width="300" height="400">
+            <div class="global__card__overlay">
+              <p class="global__card__region">Copenhagen</p>
+              <p class="global__card__style">Nordic Minimalism</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ARTICLES ============ -->
+    <section class="articles section" aria-labelledby="articles-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <div class="section__tag">Editorial</div>
+          <h2 id="articles-title">From the WhatsPosh Edit</h2>
+          <p class="section-sub">Long-form intelligence on style, culture, and the considered life.</p>
+        </div>
+        <div class="articles__grid">
+          <article class="article-card reveal">
+            <div class="article-card__img">
+              <img src="https://placehold.co/600x338/2C2418/C9A96E?text=Article" alt="The Capsule Wardrobe" loading="lazy" width="600" height="338">
+            </div>
+            <div class="article-card__body">
+              <p class="article-card__cat">Style</p>
+              <h3 class="article-card__title">The 12-Piece Capsule: Why Less Is Always More</h3>
+              <p class="article-card__excerpt">Every unnecessary item in your wardrobe is a decision that costs you time and clarity. Here's how to build a wardrobe that only contains what you love.</p>
+              <p class="article-card__meta">7 min read <span>·</span> Style</p>
+            </div>
+          </article>
+          <article class="article-card reveal reveal-delay-1">
+            <div class="article-card__img">
+              <img src="https://placehold.co/600x338/1E2820/8B9D77?text=Article" alt="Modern Etiquette" loading="lazy" width="600" height="338">
+            </div>
+            <div class="article-card__body">
+              <p class="article-card__cat">Etiquette</p>
+              <h3 class="article-card__title">The New Rules of Modern Etiquette</h3>
+              <p class="article-card__excerpt">From group chats to outdoor dining, the world has changed. Elegance must evolve with it — but its purpose never changes: making others feel at ease.</p>
+              <p class="article-card__meta">5 min read <span>·</span> Etiquette</p>
+            </div>
+          </article>
+          <article class="article-card reveal reveal-delay-2">
+            <div class="article-card__img">
+              <img src="https://placehold.co/600x338/221A2C/9B8EA0?text=Article" alt="Cultural Intelligence" loading="lazy" width="600" height="338">
+            </div>
+            <div class="article-card__body">
+              <p class="article-card__cat">Culture</p>
+              <h3 class="article-card__title">The Posh Reading List: 12 Books That Change How You See</h3>
+              <p class="article-card__excerpt">Books that shift perspective, refine taste, and expand the way you understand ambition, beauty, and what it means to live deliberately.</p>
+              <p class="article-card__meta">4 min read <span>·</span> Culture</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NEWSLETTER ============ -->
+    <section class="newsletter section" aria-labelledby="newsletter-title">
+      <div class="container">
+        <div class="section__tag" style="color:var(--gold);">The Weekly Edit</div>
+        <h2 id="newsletter-title">The Posh Letter</h2>
+        <p class="newsletter__sub">One email, every Thursday. Five things to elevate your week — and nothing else.</p>
+        <form class="newsletter__form" novalidate aria-label="Newsletter signup">
+          <label for="newsletter-email" class="sr-only">Your email address</label>
+          <input class="newsletter__input" type="email" id="newsletter-email" name="email" placeholder="Your email address" autocomplete="email" required>
+          <button class="btn btn--primary" type="submit">Join the Edit</button>
+        </form>
+        <p class="newsletter__fine">No noise. No spam. Unsubscribe with one click, always.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <p class="footer__logo">WhatsPosh</p>
+          <p class="footer__tagline">The global authority on modern elegance. Style, etiquette, beauty, and culture for the considered life.</p>
+          <div class="footer__social" aria-label="Social media links">
+            <a href="#" class="footer__social-link" aria-label="Instagram">&#9678;</a>
+            <a href="#" class="footer__social-link" aria-label="Pinterest">&#9678;</a>
+            <a href="#" class="footer__social-link" aria-label="YouTube">&#9678;</a>
+          </div>
+        </div>
+        <div>
+          <p class="footer__col-title">Pillars</p>
+          <ul class="footer__col-links" role="list">
+            <li><a href="#style">Style</a></li>
+            <li><a href="#etiquette">Etiquette</a></li>
+            <li><a href="#beauty">Beauty</a></li>
+            <li><a href="#culture">Culture</a></li>
+            <li><a href="#access">Access</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title">Tools</p>
+          <ul class="footer__col-links" role="list">
+            <li><a href="#quiz">Archetype Quiz</a></li>
+            <li><a href="#outfit-gen">Outfit Generator</a></li>
+            <li><a href="#vault">Etiquette Vault</a></li>
+            <li><a href="#beauty">Fabric Decoder</a></li>
+            <li><a href="#today">Daily Drop</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title">Language</p>
+          <ul class="footer__col-links" role="list">
+            <li><a href="/">English</a></li>
+            <li><a href="/es/">Español</a></li>
+            <li><a href="/fr/">Français</a></li>
+          </ul>
+          <p class="footer__col-title" style="margin-top:1.5rem;">Company</p>
+          <ul class="footer__col-links" role="list">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Advertise</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">&copy; 2026 WhatsPosh. All rights reserved.</p>
+        <div class="footer__bottom-links">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
